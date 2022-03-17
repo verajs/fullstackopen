@@ -1,12 +1,12 @@
 # Part 1, exercises 1.1 to 1.14
 
-Courseinfo (1.1-1.5)
+## Courseinfo (1.1-1.5)
 
 A very simple introductory app using React.
 
 ![courseinfo](https://user-images.githubusercontent.com/100543895/158880213-de160d5f-9e3d-4533-9da9-50cb7ce91ceb.png)
 
-Unicafe (1.6-1.11)
+## Unicafe (1.6-1.11)
 
 "Like most companies, Unicafe collects feedback from its customers. Your task is to implement a web application for collecting customer feedback. 
 There are only three options for feedback: good, neutral, and bad.
@@ -14,7 +14,7 @@ The application must display the total number of collected feedback for each cat
 
 ![unicafe](https://user-images.githubusercontent.com/100543895/158880220-38d3bb75-1afd-40b7-9a7d-36e133011f39.png)
 
-Anecdotes (1.12-1.13)
+## Anecdotes (1.12-1.13)
 
 "The world of software engineering is filled with anecdotes that distill timeless truths from our field into short one-liners.
 Expand the following application by adding a button that can be clicked to display a random anecdote from the field of software engineering:"
