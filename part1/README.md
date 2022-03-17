@@ -21,3 +21,4 @@ The application must display the total number of collected feedback for each cat
 Expand the following application by adding a button that can be clicked to display a random anecdote from the field of software engineering:"</em>
 
 ![anecdotes](https://user-images.githubusercontent.com/100543895/158880222-c5a2d8d1-f80e-4fb1-95c2-6619ed9a2a86.png)
+
