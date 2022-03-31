@@ -1,4 +1,5 @@
 # Phonebook
+React webapp where contact info can be saved in a back-end server and can be added, filtered, deleted or edited.
 
 ![phonebook1grid](https://user-images.githubusercontent.com/100543895/161157258-c870bf70-e1a0-42e4-a32f-8e222414e3e2.png)
 
@@ -8,6 +9,7 @@
 
 
 # Countries 
+React webapp that communicates with two APIs to show real-time data of countries queried by the user.
 
 ![countries1](https://user-images.githubusercontent.com/100543895/161157351-39bbc5d3-10c9-42f9-8ddc-6d58d6daeff8.png)
 
