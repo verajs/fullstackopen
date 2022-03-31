@@ -1,0 +1,279 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding-bottom: 15px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@font-face {
+  font-family: "IBMSemiBold";
+  src: local("IBMSemiBold"),
+    url("./fonts/IBM/IBMPlexMono-SemiBold.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "IBMLight";
+  src: local("IBMLight"),
+    url("./fonts/IBM/IBMPlexMono-Light.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "IBMBold";
+  src: local("IBMBold"),
+    url("./fonts/IBM/IBMPlexMono-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "IBMELItalic";
+  src: local("IBMELItalic"),
+    url("./fonts/IBM/IBMPlexSans-ExtraLightItalic.ttf") format("truetype");
+  font-weight: lighter;
+}
+
+h1 {
+  font-family: "IBMSemiBold";
+}
+h2 {
+  font-family: "IBMSemiBold";
+}
+h3 {
+  font-family: "IBMSemiBold";
+}
+h4 {
+  font-family: "IBMSemiBold";
+}
+
+.divcountry {
+margin-top: 5%;
+}
+
+li {
+  font-family: "IBMSemibold";
+}
+
+.header {
+  font-family: "IBMSemiBold";
+  margin-top: 1.5%;
+  color: rgb(44, 43, 43);
+  font-size: 40px;
+}
+
+button {
+  font-family: "IBMSemiBold";
+  position: relative;
+  display: block;
+  margin: 0;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  letter-spacing: 2px;
+  transition: 0.2s all ease-in-out;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 1);
+  box-shadow: 3px 3px 1px, 3px 3px 1px 1px rgba(0, 0, 0, 1);
+}
+button:hover {
+  background: rgba(0, 0, 0, 1);
+  color: rgb(255, 255, 255);
+  border: 1px solid rgba(0, 0, 0, 1);
+}
+
+.notif {
+  color: black;
+  background: white;
+  font-family: "IBMLight";
+  font-size: 25px;
+  border-style: solid;
+  border-radius: 2px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.divposition {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.numbers {
+  font-family: "IBMLight";
+}
+
+.formtable {
+  margin-bottom: 60px;
+  border-radius: 0px;
+  padding: 0px;
+  font-family: "IBMLight";
+  text-align: justify;
+}
+
+.formbutton {
+  font-family: "IBMSemiBold";
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  padding: 4px 20px;
+  background-color: antiquewhite(117, 96, 68);
+  letter-spacing: 2px;
+  transition: 0.2s all ease-in-out;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 1);
+  box-shadow: 3px 3px 1px, 3px 3px 1px 1px rgba(0, 0, 0, 1);
+}
+formbutton:hover {
+  background: rgba(0, 0, 0, 1);
+  color: white;
+  border: 1px solid rgba(0, 0, 0, 1);
+}
+
+.numberstable {
+  border-style: solid;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  padding: 25px;
+  background: #f7f749;
+  font-family: "IBMLight";
+  text-align: center;
+  width: 100%;
+}
+
+.grid {
+  display: grid;
+  gap: 0.125rem;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+}
+
+.topgrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.footer {
+  position: fixed;
+  top: 12px;
+  right: 30px;
+  font-family: "IBMELItalic";
+}
+
+.notification {
+  font-family: "IBMSemiBold";
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding: 4px 20px;
+  background-color: antiquewhite(117, 96, 68);
+  letter-spacing: 2px;
+  transition: 0.2s all ease-in-out;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 1);
+  box-shadow: 3px 3px 1px, 3px 3px 1px 1px rgba(0, 0, 0, 1);
+}
+
+.logo {
+  font-family: "IBMSemiBold";
+  margin-top: 10px;
+  padding: 4px 20px;
+  background-color: antiquewhite(117, 96, 68);
+  letter-spacing: 2px;
+  transition: 0.2s all ease-in-out;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 1);
+  box-shadow: 3px 3px 1px, 3px 3px 1px 1px rgba(0, 0, 0, 1);
+  width: fit-content;
+  margin-bottom: 32px;
+}
+
+input {
+  width: 80%;
+  border: 0;
+  font-family: "IBMSemiBold";
+  padding: 16px 12px;
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.3);
+  color: #000;
+  transition: all 0.15s ease;
+  font-size: large;
+  margin-left: 8%;
+}
+
+input::placeholder {
+  color: rgb(119, 119, 119);
+}
+
+input:hover {
+  box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.4);
+}
+
+input:focus {
+  outline: none;
+  box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.5);
+}
+
+p {
+  font-family: "IBMLight";
+}
+
+.flagimg {
+  width: 40%;
+}
+
+.weatherimg {
+  width: 15%;
+}
+
+.toomany {
+  font-family: "IBMLight";
+  font-size: large;
+  margin-top: 5%;
+}
+
+.capitalseparation {
+  margin-left: 2%;
+  margin-top: 2.5%;
+  margin-bottom: 2%;
+}
+
+.squares {
+  margin-top: 5%;
+  margin-left: 8%;
+}
+
+.moveeverything {
+  margin-left: 8.5%;
+}
+
+.footerbutton {
+  font-family: "IBMSemiBold";
+  position: relative;
+  display: block;
+  margin: 0;
+  padding: 10%;
+  background-color: rgb(255, 255, 255);
+  letter-spacing: 2px;
+  transition: 0.2s all ease-in-out;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 1);
+  box-shadow: 3px 3px 1px, 3px 3px 1px 1px rgba(0, 0, 0, 1);
+  width: auto;
+  position: relative;
+  left: 50%;
+  bottom: 0%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  margin-top: 3%;
+}
+footerbutton:hover {
+  background: rgba(0, 0, 0, 1);
+  color: rgb(255, 255, 255);
+  border: 1px solid rgba(0, 0, 0, 1);
+  
+}
