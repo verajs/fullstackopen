@@ -9,7 +9,7 @@
 
 
 # Countries
-###React webapp that communicates with two APIs to show real-time data of countries queried by the user.
+### React webapp that communicates with two APIs to show real-time data of countries queried by the user.
 
 ![countries1](https://user-images.githubusercontent.com/100543895/161157351-39bbc5d3-10c9-42f9-8ddc-6d58d6daeff8.png)
 
